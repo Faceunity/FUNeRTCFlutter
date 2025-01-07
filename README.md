@@ -26,8 +26,10 @@ faceunity_ui_flutter/faceunity_plugin/ios/Classes/Tools/authpack.h
 
 ## 第三步：[创建云信应用并获取 App Key](https://doc.yunxin.163.com/console/docs/TIzMDE4NTA?platform=console)
 
-## 第四步 ：打开文件lib/call.dart，替换文件中的“云信appkey”
+## 第四步：在 [网易云信控制台](https://app.yunxin.163.com/global/home) 中为已创建的应用开通 [音视频通话](https://doc.yunxin.163.com/console/concept/zc3NDYzNzc?platform=console) 服务。
 
-## 第五步：flutter pub get、flutter pub upgrade
+## 第五步 ：打开文件lib/call.dart，替换文件中的云信appkey
 
-## 第六步：flutter run
+## 第六步：flutter pub get、flutter pub upgrade
+
+## 第七步：flutter run
